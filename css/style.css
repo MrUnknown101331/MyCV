@@ -1,3 +1,7 @@
+body {
+  background-color: #021702;
+}
+
 #dp {
   float: left;
   height: 150px;
@@ -27,7 +31,7 @@
 #detail {
   background-color: #0a0a23;
   color: #f5f6f7;
-  margin: 20px auto 10px;
+  margin: 30px auto 10px;
   max-width: 800px;
   padding: 0 10px;
   display: grid;
@@ -50,6 +54,9 @@
 #content {
   max-width: 900px;
   margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 hr {
@@ -107,9 +114,52 @@ hr {
 .instiName, .instiDetail {
   padding-left: 20px;
   color: #696969;
+  font-style: italic;
 }
 
 .date {
   text-align: right;
   color: cadetblue;
+}
+
+.skillList {
+  margin-left: 10px;
+  margin-top: -25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.closer {
+  margin-top: -15px;
+}
+
+.skill {
+  background-color: cadetblue;
+  padding: 5px;
+  border-radius: 5px;
+  color: #f5f6f7;
+}
+
+.certificates {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 80px 80px 80px 80px 80px;
+}
+
+.certiDetail, .ProjDetail {
+  margin-top: -15px;
+  color: #696969;
+  font-style: italic;
+}
+
+.ProjDate, .ProjLink {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.sideLink {
+  margin-top: -15px;
+  text-align: right;
 }
