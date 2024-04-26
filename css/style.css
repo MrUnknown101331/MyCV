@@ -52,6 +52,12 @@
   margin: 0 auto;
 }
 
+hr {
+  height: 6px;
+  background-image: linear-gradient(to right, #13133d, cadetblue, #969696);
+  border-image: linear-gradient(to right, #13133d, cadetblue, #969696);
+}
+
 .iconbox {
   display: flex;
   flex-direction: row;
@@ -85,4 +91,25 @@
   font-family: monospace;
   font-size: 30px;
   color: #13133d;
+}
+
+.instiName {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: -18px;
+  margin-top: -35px;
+}
+
+.instiDetail {
+  margin: 1px auto;
+}
+
+.instiName, .instiDetail {
+  padding-left: 20px;
+  color: #696969;
+}
+
+.date {
+  text-align: right;
+  color: cadetblue;
 }
