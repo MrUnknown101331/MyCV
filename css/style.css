@@ -164,10 +164,40 @@ hr {
   font-style: italic;
 }
 
-.ProjDate, .ProjLink {
+.ProjDate, .ProjLink, .OrgDate {
   display: grid;
   grid-template-columns: auto auto;
 }
+
+.OrgInfo {
+  margin-left: 10px;
+  margin-top: -15px;
+}
+
+.OrgPosLink {
+  text-decoration: none;
+  color: black;
+}
+
+.OrgPosLink:hover,.OrgPosLink:active{
+  text-decoration: underline;
+  color: coral;
+}
+
+.OrgInfoLink {
+  text-decoration: none;
+  color: #696969;
+}
+.OrgInfoLink:hover,.OrgInfoLink:active{
+  text-decoration: underline;
+  color: coral;
+}
+
+
+.OrgLi {
+  margin-top: -10px;
+}
+
 
 .sideLink {
   display: inline-block;
