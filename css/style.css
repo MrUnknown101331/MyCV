@@ -1,5 +1,6 @@
 body {
   background-color: #021702;
+  text-size-adjust: none;
 }
 
 #dp {
@@ -63,18 +64,6 @@ hr {
   height: 6px;
   background-image: linear-gradient(to right, #13133d, cadetblue, #969696);
   border-image: linear-gradient(to right, #13133d, cadetblue, #969696);
-}
-
-p {
-  font-size: 16px;
-}
-
-h3 {
-  font-size: 18px;
-}
-
-h3 {
-  font-size: 24px;
 }
 
 .iconbox {
