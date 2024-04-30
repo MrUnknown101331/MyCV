@@ -65,6 +65,18 @@ hr {
   border-image: linear-gradient(to right, #13133d, cadetblue, #969696);
 }
 
+p {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
 .iconbox {
   display: flex;
   flex-direction: row;
@@ -179,7 +191,7 @@ hr {
   color: black;
 }
 
-.OrgPosLink:hover,.OrgPosLink:active{
+.OrgPosLink:hover, .OrgPosLink:active {
   text-decoration: underline;
   color: coral;
 }
@@ -188,7 +200,8 @@ hr {
   text-decoration: none;
   color: #696969;
 }
-.OrgInfoLink:hover,.OrgInfoLink:active{
+
+.OrgInfoLink:hover, .OrgInfoLink:active {
   text-decoration: underline;
   color: coral;
 }
